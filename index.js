@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Replace with your new Google Apps Script endpoint
-const GAS_URL = "https://script.google.com/macros/s/AKfycbyRDWNqN4pCHq49NWw8HhCBmMMG_gBXTg2lYIP79GdIrgkPlMoOydLEwoglNmALSX97VA/exec";
+const GAS_URL = "https://script.google.com/macros/s/AKfycbyi7Umb82JWCKeJ0F0oH0jimKP9ZCr4boFvfpp7PWhDvZ4LbGrfjd_oJhlXTdKcJcNpPA/exec";
 
 app.use(cors());
 app.use(bodyParser.json());
