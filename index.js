@@ -6,8 +6,8 @@ const axios = require("axios");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Replace with your new Google Apps Script endpoint
-const GAS_URL = "https://script.google.com/macros/s/AKfycbyi7Umb82JWCKeJ0F0oH0jimKP9ZCr4boFvfpp7PWhDvZ4LbGrfjd_oJhlXTdKcJcNpPA/exec";
+
+const GAS_URL = "https://script.google.com/macros/s/AKfycbxJ786JMijdKPCh0zqhkwqeixaq7DALgZaWiuAIaCSY6GF8e03_BqcpVYm4Yi3-VF1GaQ/exec";
 
 app.use(cors());
 app.use(bodyParser.json());
