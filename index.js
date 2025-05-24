@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 
-const GAS_URL = "https://script.google.com/macros/s/AKfycbxJ786JMijdKPCh0zqhkwqeixaq7DALgZaWiuAIaCSY6GF8e03_BqcpVYm4Yi3-VF1GaQ/exec";
+const GAS_URL = "https://script.google.com/macros/s/AKfycbx7i8bXq7qDracflzHYonnVy7RBDugAB6Sn82e7bmq5B2KDBDUfNTOCy7cQTMDaA0eF6g/exec";
 
 app.use(cors());
 app.use(bodyParser.json());
